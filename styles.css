@@ -1,0 +1,16 @@
+.navbar-toggler {
+    padding: 0.4rem;
+    border: none;
+    color: #222222;
+  }
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  .navbar {
+    padding: 1.1rem 0.8rem;
+    border-bottom: 1px solid #222222;
+    background: #fff;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+  }
