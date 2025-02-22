@@ -1,113 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dasom Kim | Software Developer</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
     <link rel="preconnect" href="https://rsms.me/" />
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
     <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
+</head>
+
+<body>
     <nav class="navbar navbar-expand-sm sticky-top" id="navbar">
-      <div class="container-fluid gap-3">
-        <a
-          class="navbar-brand order-last order-sm-first me-auto ms-1 ms-sm-2"
-          href="#"
-          >Dasom K.</a
-        >
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasNavbar"
-          aria-controls="offcanvasNavbar"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span><i class="fa-solid fa-bars"></i></span>
-        </button>
-        <div
-          class="offcanvas offcanvas-start"
-          data-bs-scroll="true"
-          tabindex="-1"
-          id="offcanvasNavbar"
-          aria-labelledby="offcanvasNavbarLabel"
-        >
-          <div class="offcanvas-header">
-            <div class="offcanvas-title" id="offcanvasNavbarLabel">
-              Dasom K.
+        <div class="container-fluid gap-3">
+            <a class="navbar-brand order-last order-sm-first me-auto ms-1 ms-sm-2" href="#">Dasom K.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span><i class="fa-solid fa-bars"></i></span>
+            </button>
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <div class="offcanvas-title" id="offcanvasNavbarLabel">
+                        Dasom K.
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav mb-2 mb-sm-0 ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">PROJECTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#experience">EXPERIENCE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="offcanvas"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="offcanvas-body">
-            <ul class="navbar-nav mb-2 mb-sm-0 ms-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#about">ABOUT</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#projects">PROJECTS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#experience">EXPERIENCE</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">CONTACT</a>
-              </li>
-            </ul>
-          </div>
         </div>
-      </div>
     </nav>
 
-    <main
-      class="content"
-      data-bs-spy="scroll"
-      data-bs-target="#navbar"
-      data-bs-smooth-scroll="true"
-      tabindex="0"
-    >
-      <header class="intro">
-        <div class="row d-flex">
-          <div class="col-lg-8 col-12">
-            <h1 class="intro-heading-primary">DASOM KIM</h1>
-            <h2 class="intro-heading-secondary">Full-Stack Developer</h2>
-            <h2 class="intro-heading-tertiary">
-                I create solutions that are  
-              <span class="highlight highlight-0">impactful</span> and 
-              <span class="highlight highlight-1">meaningful</span>.
-            </h2>
-            <p class="intro-text">
-                I am passionate about using technology to create meaningful solutions that enhance everyday experiences. To me, technology is more than just writing code—it's about designing solutions that empower people and make interactions more seamless and inclusive. Through collaboration, innovation, and continuous learning, I strive to build software that is both functional and impactful.
-            </p>
-            <button class="btn-box btn-more">Keep reading</button>
-          </div>
-          <div class="photo-container col-lg-4 col-12">
-            <img src="img/myphoto.jpeg" class="img-fluid profile-photo" />
-          </div>
-        </div>
-      </header>
+    <main class="content" data-bs-spy="scroll" data-bs-target="#navbar" data-bs-smooth-scroll="true" tabindex="0">
+        <header class="intro container">
+            <div class="row">
+                <div class="col-lg-8 col-12">
+                    <h1 class="intro-heading-primary">DASOM KIM</h1>
+                    <h2 class="intro-heading-secondary">Full-Stack Developer</h2>
+                    <h2 class="intro-heading-tertiary">
+                        I create solutions that are
+                        <span class="highlight highlight-0">impactful</span> and
+                        <span class="highlight highlight-1">meaningful</span>.
+                    </h2>
+                    <p class="intro-text">
+                        I am passionate about using technology to create meaningful solutions
+                        that enhance everyday experiences. To me, technology is more than just
+                        writing code—it's about designing solutions that empower people and make
+                        interactions more seamless and inclusive. Through collaboration,
+                        innovation, and continuous learning, I strive to build software that is
+                        both functional and impactful.
+                    </p>
+                    <button class="btn-box btn-more">Keep reading</button>
+                </div>
+                <div class="photo-container col-lg-4 col-12">
+                    <img src="img/myphoto.jpeg" class="img-fluid profile-photo" />
+                </div>
+            </div>
+        </header>
+
+        <section id="about" class="about section section-hidden row gx-0">
+            <h3 class="section-heading col-12 col-lg-2 col-xl-3">ABOUT</h3>
+            <div class="section-content about-content col-12 col-lg-10 col-xl-7">
+
+                <p>
+                    My journey into software development was driven by a deep curiosity
+                    and a desire to <strong>create solutions that make a real impact.</strong>
+                    Coming from a background in the non-profit sector, I witnessed firsthand how
+                    technology can either empower or create barriers for people.
+                    This realization inspired me to transition into development,
+                    where I could build intuitive and meaningful experiences that improve
+                    everyday interactions.
+                </p>
+                <p>
+                    <strong>What excites me most is the process of problem-solving—taking complex
+                        challenges and turning them into seamless, user-friendly solutions.</strong>
+                    I thrive in collaborative environments, where learning and innovation
+                    fuel my growth. My attention to detail and commitment to accessibility
+                    ensure that the technology I build is not just functional, but also
+                    inclusive and impactful.
+                </p>
+            </div>
+        </section>
+
+        <section id="education" class="education section section-hidden row gx-0">
+            <h3 class="section-heading col-12 col-lg-2 col-xl-3">EDUCATION</h3>
+            <div class="section-content education-content col-12 col-lg-10 col-xl-7">
+                <p><strong>Advanced Diploma, Software Development</strong>
+                    <em>Mohawk College (Hamilton, Ontario)</em>
+                    <span>Sep 2023 - Dec 2026</span>
+                </p>
+                <p><strong>Bachelor of Arts, Japanese</strong>
+                    <em>Hanbat National University (Dajeon, South Korea)</em>
+                    <span>Mar 2009 - Aug 2014</span>
+                </p>
+        </section>
+
+        <section id="skills" class="section section-hidden row gx-0">
+            <h3 class="section-heading col-12 col-lg-2 col-xl-3">SKILLS</h3>
+            <div class="skill-content col-12 col-lg-10 col-xl-7">
+                <div class="skills">Java</div>
+                <div class="skills">C#</div>
+                <div class="skills">Python</div>
+                <div class="skills">PHP</div>
+                <div class="skills">HTML/CSS</div>
+                <div class="skills">JavaScript</div>
+                <div class="skills">MySQL</div>
+                <div class="skills">.NET</div>
+                <div class="skills">ASP.NET</div>
+                <div class="skills">React</div>
+                <div class="skills">Bootstrap</div>
+                <div class="skills">RESTful API</div>
+                <div class="skills">WordPress</div>
+                <div class="skills">Git/GitHub</div>
+                <div class="skills">Software Testing</div>
+            </div>
+        </section>
+
     </main>
 
-    <script
-      src="https://kit.fontawesome.com/31e1952cc2.js"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    <script src="https://kit.fontawesome.com/31e1952cc2.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
