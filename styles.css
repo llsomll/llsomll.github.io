@@ -1,3 +1,11 @@
+body {
+    font-family: Inter, sans-serif;
+    /* background-color: rgb(255,202,12); */
+    background-color: rgb(102,216,128);
+}
+
+/* navbar */
+
 .navbar-toggler {
     padding: 0.4rem;
     border: none;
@@ -11,6 +19,5 @@
     padding: 1.1rem 0.8rem;
     border-bottom: 1px solid #222222;
     background: #fff;
-    font-size: 1.2rem;
     letter-spacing: 1px;
   }
