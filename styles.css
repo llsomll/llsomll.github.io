@@ -29,7 +29,7 @@ body {
 /* intro */
 
 .intro {
-    margin-top: 2rem;
+    margin-top: 5rem;
     color: inherit;
 }
 
@@ -38,7 +38,7 @@ body {
     margin-bottom: 0.5rem;
     font-size: 3.5rem;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 400;
     letter-spacing: 2px;
 }
 
@@ -90,10 +90,6 @@ body {
 @media (min-width: 992px) {
     .intro-left {
         padding: 2rem;
-    }
-
-    .intro {
-        padding: 4.8rem 2.4rem;
     }
 }
 
